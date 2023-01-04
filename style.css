@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.main{
+    display: flex;
+    background: #F3F5FC;
+}
+
+.logo{
+
+    width: 120px;
+    height: 944px;
+    margin: 40px 0 40px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 48px;
+    width: 32px;
+    margin-top: 40px;
+
+
+
+}
+
+.input{
+    background-color: #F3F5FC;
+    margin: 40px 0 40px 80px;
+    width: 680px;
+    height: 944px;
+    flex-direction: column;
+   
+
+}
+
+.textarea{
+    width: 100%;
+    border: none;
+    margin-top: 168px;
+    resize: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: #F3F5FC;
+}
+
+
+.display{
+
+    background-color: darkorange;
+    width: 400px;
+    height: 944px;
+    margin: 40px 40px 40px 80px;
+}
+
+.inf{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.inf img {
+    margin-right: 10px;
+}
+
+.btns{
+    margin-top: 20px;
+}
+#btn1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    color: #FFFFFF;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    
+    
+}
+.btns button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    color: #FFFFFF;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    color: #0A3871;
+    
+}
+
+
+.display{
+    background-color: #FEFEFE;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+
+}
