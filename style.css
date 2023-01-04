@@ -36,6 +36,7 @@
 
 .textarea{
     width: 100%;
+    height: 645px;
     border: none;
     margin-top: 168px;
     resize: none;
@@ -47,15 +48,6 @@
     line-height: 150%;
     color: #0A3871;
     background-color: #F3F5FC;
-}
-
-
-.display{
-
-    background-color: darkorange;
-    width: 400px;
-    height: 944px;
-    margin: 40px 40px 40px 80px;
 }
 
 .inf{
@@ -87,6 +79,7 @@
     width: 328px;
     height: 67px;
     background: #0A3871;
+    cursor: pointer;
     
     
 }
@@ -105,32 +98,55 @@
     height: 67px;
     background: #D8DFE8;
     color: #0A3871;
+    cursor: pointer;
     
 }
-
 
 .display{
     background-color: #FEFEFE;
+    
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    
-
-
+    width: 400px;
+    height: 944px;
+    margin: 40px 40px 40px 80px;
+    display: flex;
 }
+    .conjunto{
+        margin:32px;
+        max-width: 800px;
+        display: flex;
+        width: 100%;
+        background-color: #FEFEFE;
+        flex-direction: column;
+        }
+        .resultado{
+        
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            color: #495057;
+            width: 100%;
+            height: 781px;
+            
+            
+            margin-bottom: 32px;
+           
+            
+            
+        }
+        .btn3{
+            height: 67px;
+            width: 336px;
+            left: 1032px;
+            top: 885px;
+            border-radius: 24px;
+            padding: 24px;
+            cursor: pointer;
 
-.resultado{
-    padding: 32px 32px 131px 32px;
-    background-color: burlywood;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
-    color: #495057;
-    height: 100% - 131px;
-    width: 100% ;
-    
-}
+        }
 
 .lupa{
   margin: 243px 32px 0 32px;   
@@ -155,4 +171,22 @@
         text-align: center;
         color: #495057;
 
+    }
+
+    footer{
+        background-color: #495057;
+       height: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+       
+    }
+    footer p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 150%;
+      
     }
