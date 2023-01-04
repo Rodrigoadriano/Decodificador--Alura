@@ -27,7 +27,8 @@
 .input{
     background-color: #F3F5FC;
     margin: 40px 0 40px 80px;
-    width: 680px;
+    width: 800px;
+    min-width: 500px;
     height: 944px;
     flex-direction: column;
    
@@ -76,7 +77,7 @@
     padding: 24px;
     gap: 8px;
     border-radius: 24px;
-    width: 328px;
+    width: 40%;
     height: 67px;
     background: #0A3871;
     cursor: pointer;
@@ -94,7 +95,7 @@
     padding: 24px;
     gap: 8px;
     border-radius: 24px;
-    width: 328px;
+    width: 40%;
     height: 67px;
     background: #D8DFE8;
     color: #0A3871;
