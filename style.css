@@ -174,11 +174,12 @@
     }
 
     footer{
-        background-color: #495057;
+        background: #F3F5FC;
        height: 100px;
        display: flex;
        justify-content: center;
        align-items: center;
+       flex-direction: column;
       
        
     }
@@ -190,3 +191,12 @@
         line-height: 150%;
       
     }
+
+ .links ol{
+ 
+    display: flex;
+    flex-direction: row;
+ }
+ .links ol li{
+    margin: 10px;
+}
