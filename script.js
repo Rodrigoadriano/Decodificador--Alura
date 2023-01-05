@@ -4,17 +4,6 @@ let lupa = document.querySelector('.lupa')
 let resultado = document.querySelector('.resultado')
 let conjunto = document.querySelector('.conjunto')
 
-let output = document.querySelector('.display');
-let btn1 = document.querySelector('#btn1');
-let btn2 = document.querySelector('#btn2');
-
-
-conjunto.style.display = 'none'
-
-
-
-
-
 function Criptografar(){
 
     lupa.style.display = 'none'
@@ -43,9 +32,9 @@ function descriptografar(){
 }
 
 function copiar(){
-    navigator.clipboard.writeText(resultado.innerHTML);
-    alert("Mensagemn copiada")
+    navigator.clipboard.writeText(resultado.innerHTML).then(()=> {alert("Mensagemn copiada")}).catch(() => {
+        alert("something went wrong");
+      });
+    
 }
 
-
-/*  i.replaceAll("enter","e").replaceAll("imes", "i").replaceAll("ai", "a").replaceAll("ober", "o").replaceAll("ufat", "u")*/
