@@ -1,57 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-
+body{
+    height: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
 .main{
     display: flex;
+    
     background: #F3F5FC;
+    
+    
 }
 
+/*
+    .main > * {
+        border: 3px;
+        border-color: #ff5e00;
+        border-style: solid;
+    }
+
+        .border{
+            border: 3px;
+            border-color: #343A40;
+            border-style: solid;
+        }
+*/
 .logo{
 
-    width: 120px;
-    height: 944px;
+    height: 48px;
+    width: 32px;
     margin: 40px 0 40px 40px;
     display: flex;
     justify-content: center;
-}
+    
+    }
 
     .logo img {
         height: 48px;
         width: 32px;
-        margin-top: 40px;
         cursor: pointer;
 
     }
 
-    .logo img:hover{
+            .logo img:hover{
+                
+                /* Start the shake animation and make the animation last for 0.5 seconds */
+                animation: shake 0.5s;
             
-            /* Start the shake animation and make the animation last for 0.5 seconds */
-            animation: shake 0.5s;
-          
-            /* When the animation is finished, start again */
-            animation-iteration-count: infinite;
-          }
-          
-          @keyframes shake {
-            0% { transform: translate(1px, 1px) rotate(0deg); }
-            10% { transform: translate(-1px, -2px) rotate(-1deg); }
-            20% { transform: translate(-3px, 0px) rotate(1deg); }
-            30% { transform: translate(3px, 2px) rotate(0deg); }
-            40% { transform: translate(1px, -1px) rotate(1deg); }
-            50% { transform: translate(-1px, 2px) rotate(-1deg); }
-            60% { transform: translate(-3px, 1px) rotate(0deg); }
-            70% { transform: translate(3px, 1px) rotate(-1deg); }
-            80% { transform: translate(-1px, -1px) rotate(1deg); }
-            90% { transform: translate(1px, 2px) rotate(0deg); }
-            100% { transform: translate(1px, -2px) rotate(-1deg); }
-          }
-    
+                /* When the animation is finished, start again */
+                animation-iteration-count: infinite;
+            }
+            
+                @keyframes shake {
+                    0% { transform: translate(1px, 1px) rotate(0deg); }
+                    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                    20% { transform: translate(-3px, 0px) rotate(1deg); }
+                    30% { transform: translate(3px, 2px) rotate(0deg); }
+                    40% { transform: translate(1px, -1px) rotate(1deg); }
+                    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+                    60% { transform: translate(-3px, 1px) rotate(0deg); }
+                    70% { transform: translate(3px, 1px) rotate(-1deg); }
+                    80% { transform: translate(-1px, -1px) rotate(1deg); }
+                    90% { transform: translate(1px, 2px) rotate(0deg); }
+                    100% { transform: translate(1px, -2px) rotate(-1deg); }
+                }
+            
 
 .input{
     background-color: #F3F5FC;
-    margin: 40px 0 40px 80px;
-    width: 800px;
-    min-width: 500px;
+    margin: 40px 40px 40px 80px;
+    max-width: 914px;
+    min-width: 100px;
+    /*min-width: 500px;*/
     height: 100%;
     flex-direction: column;
    
@@ -72,6 +93,7 @@
         line-height: 150%;
         color: #0A3871;
         background-color: #F3F5FC;
+        padding: 0px;
     }
 
         .inf{
@@ -89,7 +111,7 @@
             .btns{
                 margin-top: 20px;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
             }
             .padrao{
                     font-family: 'Inter';
@@ -127,7 +149,7 @@
     
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    width: 400px;
+    width: 30%;
     height: 944px;
     margin: 40px 40px 40px 80px;
     display: flex;
@@ -139,6 +161,8 @@
         width: 100%;
         background-color: #FEFEFE;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         }
         .resultado{
@@ -169,34 +193,38 @@
 
         }
 
-.lupa{
-  margin: 243px 32px 0 32px;   
-}
-
-.lupa h2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-    text-align: center;
-    color: #343A40;
-    margin: 16px;
-}
-    h3{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        color: #495057;
+    .lupa{
+    margin: 243px 0 0 0; 
+    padding: 20px;
+    
+   
 
     }
 
+        .lupa h2{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            text-align: center;
+            color: #343A40;
+            margin: 16px;
+        }
+            h3{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                color: #495057;
+
+            }
+
     footer{
         background: #F3F5FC;
-       height: 100px;
+       height: 100%;
        display: flex;
        justify-content: center;
        align-items: center;
