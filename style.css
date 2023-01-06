@@ -44,7 +44,7 @@ body{
     }
 
             .logo img:hover{
-                
+                filter: brightness(150%);
                 /* Start the shake animation and make the animation last for 0.5 seconds */
                 animation: shake 0.5s;
             
@@ -136,7 +136,7 @@ body{
                         
                     }
                     .padrao:hover{
-                        font-size: 23px;
+                        filter: brightness(110%);
                     }
                     #btn2{
                         
@@ -183,6 +183,7 @@ body{
             
         }
         .btn3{
+            color: #0A3871;
             height: 67px;
             width: 336px;
             left: 1032px;
