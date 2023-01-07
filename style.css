@@ -248,5 +248,15 @@ body{
     flex-direction: row;
  }
  .links ol li{
+    height: 48px;
     margin: 10px;
+    filter: grayscale(90%);
+}
+ .links ol li:hover{
+    
+    filter: grayscale(0%);
+}
+
+.icone{
+    height: 48px;
 }
