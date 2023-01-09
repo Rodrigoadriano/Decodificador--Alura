@@ -38,7 +38,7 @@ function descriptografar(){
 function copiar(){
     navigator.clipboard.writeText(resultado.innerHTML)
     .then(()=> {
-        alert("Mensagemn copiada")
+        alert("Mensagem copiada")
         input.value = null
         btn3.innerHTML = "Copiado"
         btn3.disabled = true
